@@ -6,7 +6,7 @@ Homebrew formulae for [tindotdev](https://github.com/tindotdev) projects. Pre-bu
 
 ```bash
 brew tap tindotdev/tap
-brew install dictate
+brew install tindotdev/tap/dictate-cli
 ```
 
 ## Formulae
