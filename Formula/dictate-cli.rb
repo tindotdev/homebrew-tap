@@ -5,21 +5,21 @@ class DictateCli < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/tindotdev/dictate/releases/download/v1.3.0/dictate-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "74f56aed4a13820087ac06438710a43711a78c0bfe44dfe79da4f15bed6a020f"
+      sha256 "4e71664e95b96ed8f3a5cf31ed761ec2f6331cfea5e3eceea02fe6890e6a7ea2"
     end
     if Hardware::CPU.intel?
       url "https://github.com/tindotdev/dictate/releases/download/v1.3.0/dictate-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "a11b1944b155f989412b546ace278bee415fb21f29abbfb251bd6671396834c7"
+      sha256 "96d63d40d56a4edab2daca6e28e922dc79a510cee69385644edaa66886d9b80f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/tindotdev/dictate/releases/download/v1.3.0/dictate-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "544cb8d650494f0ef3e6e58555c7a694024de6b1c0a436f74c0f677ee934c77c"
+      sha256 "f59f0386f4608453e2a87683d6b14694ad0ccb3622bcb8a3ad80fb367573a93d"
     end
     if Hardware::CPU.intel?
       url "https://github.com/tindotdev/dictate/releases/download/v1.3.0/dictate-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ef046bb0c84dbce9d2e007b2a2a1d583c6f2b8c71ab3b8b7a0d341cc18ed7d06"
+      sha256 "245f8d3f7ca196ca2cddcbdedf2f6be03bce66312cd12ba13ca85157b5d0183a"
     end
   end
   license "MIT"
