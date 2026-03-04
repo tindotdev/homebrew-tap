@@ -1,25 +1,25 @@
 class DictateCli < Formula
   desc "One-shot CLI for dictate: record, transcribe, and copy to clipboard"
   homepage "https://github.com/tindotdev/dictate"
-  version "1.6.0"
+  version "1.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tindotdev/dictate/releases/download/v1.6.0/dictate-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "69d84585149c67c52c83f31b5daed38cb27624bb87907d830d73475cc47a03f9"
+      url "https://github.com/tindotdev/dictate/releases/download/v1.7.0/dictate-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "39f377a2c67703de6c82cfcc8aa0f2721bd0dba6ced837bfea5e2947d225974a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tindotdev/dictate/releases/download/v1.6.0/dictate-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "730ac6260aa9284918710ee30d4a58e6ca21d354045c3a9021ca56a06aa7edec"
+      url "https://github.com/tindotdev/dictate/releases/download/v1.7.0/dictate-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "02a9cbae5fe4bb526f3a589d165c6d3565a723b56d51dc59229f38f58c7aab6c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tindotdev/dictate/releases/download/v1.6.0/dictate-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0494c024126c6c403249625d6c3ec874006ee3b6afc5ef2255d7536a5bbcba42"
+      url "https://github.com/tindotdev/dictate/releases/download/v1.7.0/dictate-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "22f517332eccf105392e8b2a2a8e18933adfdb16d19dea4eac66903e58b9c683"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tindotdev/dictate/releases/download/v1.6.0/dictate-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "51384f7b6abf7afa418bac554a5ad0763aa98a60580a414d05e66debebb60a2f"
+      url "https://github.com/tindotdev/dictate/releases/download/v1.7.0/dictate-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "28cd2f61b300ebd45b5fe78fa6baccb5e24699fbc98c59a7597f5fc51ede130d"
     end
   end
   license "MIT"
